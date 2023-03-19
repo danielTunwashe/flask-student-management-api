@@ -193,7 +193,7 @@ This project was made possible by:
 [license-url]: https://github.com/danielTunwashe/flask-student-management-api/blob/main/LICENSE.txt
 [twitter-shield]: https://img.shields.io/badge/-@DTunwashe-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/DTunwashe
 [twitter-url]: https://twitter.com/DTunwashe
-[flask-student-management-api-screenshot]: https://github.com/danielTunwashe/flask-student-management-api/blob/main/Images/sample.png
+[flask-student-management-api-screenshot]: https://github.com/danielTunwashe/flask-student-management-api/blob/main/Images/sample.jpg
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [flask]: https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white
 [sqlite]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white
