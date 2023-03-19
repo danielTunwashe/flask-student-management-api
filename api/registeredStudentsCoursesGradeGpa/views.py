@@ -36,6 +36,8 @@ registeredStudentCoursesGradesGpa_model=registered_students_course_grade_gpa_nam
 class CalculateRegisterGpa(Resource):
     #Protect our endpoint and since we want a new refresh token we have to set it to be True
     @jwt_required()
+    #Decorator to help us expect the information in our serilizer in order to send data to our API
+    @registered_students_course_grade_gpa_namespace.expect(registeredStudentCoursesGradesGpa_model)
     @registered_students_course_grade_gpa_namespace.marshal_with(registeredStudentCoursesGradesGpa_model)
     @registered_students_course_grade_gpa_namespace.doc(
         description="Calculate and Store a Student Gpa by ID",
