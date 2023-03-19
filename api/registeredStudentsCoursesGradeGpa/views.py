@@ -24,8 +24,8 @@ registeredStudentCoursesGradesGpa_model=registered_students_course_grade_gpa_nam
     'RegisteredStudentCoursesGradesGpa',{
         'id':fields.Integer(description="An ID"),
         'gpa':fields.Float(description="Expecting a gpa (eg: 4.5, 5.0, 3.26 etc)"),
-        'semester':fields.String(description="Expecting a semester eg(First - Semester)"),
-        'session_year':fields.String(description="Expecting a session_year(eg: 2023/2024)")
+        'semester':fields.String(description="Expecting a semester eg(First - Semester)",required=True),
+        'session_year':fields.String(description="Expecting a session_year(eg: 2023/2024)",required=True)
     }
 )
 
