@@ -158,29 +158,7 @@ class getAllRegisteredStudentsCoursesGradesGpa(Resource):
         #Return our registeredStudentCourse and HTTP status
         return registeredStudentCoursesGradeGpa,HTTPStatus.OK
     
-    
-    
-#import resource class and create our class that inherits from our resource class
-@registered_students_course_grade_gpa_namespace.route('/get-gpa/student-by-ID/<int:registeredStudentCoursesGradeGpa_id>')
-class getAllRegisteredStudentsCoursesGradesGpa(Resource):
-    #Make the object returned json serializable
-    @registered_students_course_grade_gpa_namespace.marshal_with(registeredStudentCoursesGradesGpa_model)
-    @registered_students_course_grade_gpa_namespace.doc(
-        description="Get a Particular Registered Courses Gpa by Student - ID",
-        params={
-            "student_id":"An ID for getting a particular student Gpa"
-        }
-    )
-    def get(self,registeredStudentCoursesGradeGpa_id):
-        '''
-            Get a particular students registered courses grades GPA by ID
-        '''
-        #Query for the RegisteredStudentCourse to delete
-        registeredStudentCoursesGradeGpa = RegisteredStudentCoursesGradesGpa.get_by_id(registeredStudentCoursesGradeGpa_id)
-        #Return our registeredStudentCourse and HTTP status
-        return registeredStudentCoursesGradeGpa,HTTPStatus.OK
-    
-    
+
     
     
 #import resource class and create our class that inherits from our resource class
