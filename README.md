@@ -112,7 +112,7 @@ To use this API, follow these steps:
 
 1. Open the Heroku app on your browser: https://flask-student-management-api.herokuapp.com/
 
-2. Click 'auth' to reveal a dropdown menu of authentication routes
+2. Click 'student' to reveal a dropdown menu of authentication routes
 
 3. Register via the '/student/sign-up' route, if you are a new user
 
@@ -127,7 +127,25 @@ To use this API, follow these steps:
 
 7. Now authorized, you can register for courses, get all courses registered (either by ID or all), register and retrieve courses grades, claculate Gpa based on courese registered by a particular student and also explore many enpoints.
 
-8. When you're done, click 'Authorize' at top right again to then 'Logout'
+8. Details of Account Already existing in the student database 
+   
+   ```
+    Account one
+    Student id : 1,
+    Email: tunwashed@gmail.com, 
+    Password: 5cc3cc0;
+   ```
+
+   ```
+   Account two
+   Student id : 2
+   Email: oluyemmy@gmail.com,
+   Password: 12345
+   ```
+9. You can explore the endpoints with these Account Already created in the database or better still, you can create a new account as a 
+   Student via the steps above 
+
+10. When you're done, click 'Authorize' at top right again to then 'Logout'
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
