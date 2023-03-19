@@ -40,7 +40,9 @@ class CalculateRegisterGpa(Resource):
     @registered_students_course_grade_gpa_namespace.doc(
         description="Calculate and Store a Student Gpa by ID",
         params={
-            "student_id":"An ID to calculate registered courses grades GPA"
+            "student_id":"An ID to calculate registered courses grades GPA",
+            "semester":"Enter a semester(eg: First - Semester)",
+            "session_year":"Enter a session year (eg: 2023/2024)"
         }
     )
     def post(self,student_id):
